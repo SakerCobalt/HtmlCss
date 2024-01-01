@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds & Borders</title>
+    <style>
+        /*Adding a reset.  All margin, padding must be added for specific elements*/
+        /*border-box-Makes it so the size of the box stays the same.  Padding just takes away from interior space instead of expanding box size.*/
+        /* *{
+            margin: 0;
+            padding: 0;
+            
+            box-sizing:border-box;
+        } */
+        #box-1{
+            background-color: blanchedalmond;
+            /* border-width: 3px;
+            border-color: red;
+            border-style: solid; */
+            border:3px red solid;
+            border-radius: 10px;
+        }
+        #box-2{
+            background:#333;
+            color:#fff;
+            border-top:blue solid 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        #box-3{
+            /* background-image:url('./../img/stars.jpg');
+            background-repeat: no-repeat;
+            background-position: 100px 0;
+            background-size:cover; */
+            background:url('./../img/stars.jpg') no-repeat center center/cover;
+            color:#fff;
+            height:300px;
+            width:600px;
+        }
+        #box-4{
+            background: url('./../img/leaf.png') no-repeat center center;
+            /*Stays fixed wrt the browser window*/
+            background-attachment: fixed;
+            border:1px black solid;
+            /* padding-top:10px;
+            padding-right:20px;
+            padding-bottom:10px;
+            padding-left:20px; */
+            /* padding:10px 20px 10px 20px; */
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+    </div>
+    <div id="box-2">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+    </div>
+    <div id="box-3">
+        <h3>Box Three</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+    </div>
+    <div id="box-4">
+        <h3>Box Four</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis sunt fugiat inventore quo! Sunt possimus sit voluptatem maiores sed?</p>
+    </div>
+</body>
+</html>
